@@ -1,0 +1,11 @@
+# Packages the notebook imports. Exact versions were not recorded when it ran
+# (Python 3.11.7 on a Lightning AI Studio with one NVIDIA L40S GPU).
+torch
+tiktoken
+tensorflow  # only to read OpenAI's original GPT-2 checkpoint files
+numpy
+pandas
+matplotlib
+tqdm
+requests
+psutil

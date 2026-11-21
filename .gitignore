@@ -1,0 +1,14 @@
+# Downloaded or generated when the notebook runs
+gpt2/
+*.pth
+sms_spam_collection/
+sms_spam_collection.zip
+train.csv
+validation.csv
+test.csv
+instruction-data.json
+*.txt
+!requirements.txt
+!third_party_licenses/*.txt
+.ipynb_checkpoints/
+__pycache__/
