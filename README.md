@@ -8,9 +8,16 @@ This repository is a project showcase, not a maintained library.
 
 ## Demo
 
-| Spam classifier, accuracy by epoch | Instruction fine-tuning, loss |
-|---|---|
-| ![Training and validation accuracy of the spam classifier over 5 epochs, both rising above 0.9](results/stage3_spam_accuracy.png) | ![Training and validation loss during 3 epochs of instruction fine-tuning, falling from about 2 to about 0.25 (training) and 0.6 (validation)](results/stage4_instruction_loss.png) |
+<table>
+<tr>
+<th width="50%">Spam classifier, accuracy by epoch</th>
+<th width="50%">Instruction fine-tuning, loss</th>
+</tr>
+<tr>
+<td width="50%"><img src="results/stage3_spam_accuracy.png" width="100%" alt="Training and validation accuracy of the spam classifier over 5 epochs, both rising above 0.9"></td>
+<td width="50%"><img src="results/stage4_instruction_loss.png" width="100%" alt="Training and validation loss during 3 epochs of instruction fine-tuning, falling from about 2 to about 0.25 (training) and 0.6 (validation)"></td>
+</tr>
+</table>
 
 All plots come from the notebook's own saved outputs.
 
