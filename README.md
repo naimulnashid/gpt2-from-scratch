@@ -4,9 +4,9 @@ A GPT-2 language model written layer by layer in PyTorch, then loaded with OpenA
 
 This repository is a project showcase, not a maintained library.
 
-## Demo
-
 ![Visual abstract: the GPT-2 architecture built in PyTorch, then pretrained-weight loading, spam classification and instruction fine-tuning, with the key results of each stage](assets/visual-abstract.png)
+
+## Demo
 
 | Spam classifier, accuracy by epoch | Instruction fine-tuning, loss |
 |---|---|
